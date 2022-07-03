@@ -1,0 +1,140 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@300&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Oswald', sans-serif;
+}
+/* Set header style start */
+#header
+{
+    max-width: auto;
+    max-height: auto;
+    display: grid;
+    justify-content: center;
+    justify-items: center;
+    align-items: center;
+}
+/* Set header style end */
+
+/* Set box1 style start */
+.box1
+{
+    max-width: auto;
+    max-height: auto;
+    margin:2rem 0 ;
+}
+
+.box1 h2 ul
+{
+    display: flex;
+    justify-content:space-evenly;
+    justify-items: center;
+    align-items: center;
+}
+
+.box1 h2 ul li
+{
+   list-style:none;
+   color: rgba(0, 0, 255, 0.682);
+   font-size: 1.5rem;
+   margin: 1rem .8rem;
+   border: .1rem solid rgba(250, 164, 5, 0.777) ;
+   padding: .2rem .8rem;
+}
+
+.box1 h2 ul span li
+{
+    border: none;
+    list-style: none;
+}
+/* Set box1 style end */
+
+/* Set navBar style start */
+.navBar{
+    max-width: auto;
+    max-height: auto;
+    margin: 1rem;
+    border-top: .1rem solid rgba(0, 0, 0, 0.93);
+    border-bottom: .1rem solid rgba(0, 0, 0, 0.93);
+}
+
+.navBar .menu{
+    max-width: auto;
+    max-width: auto;
+}
+
+
+.navBar .menu 
+{
+    position: relative;
+    display: flex;
+    justify-content: space-around;
+    justify-items: center;
+    align-items: center;
+}
+
+.navBar .menu li
+{
+    list-style: none;
+    text-transform: uppercase;
+    font-size: 1.4rem;
+    letter-spacing: .002rem;
+    font-weight:bolder;
+    margin: .7rem;
+}
+
+.navBar .menu li:hover
+{
+    cursor: pointer;
+    border-bottom: .2rem solid black;
+}
+
+.navBar .menu li:hover .dropDown
+{
+    visibility: visible;
+    transition: .5s;
+    cursor: pointer;
+}
+
+.navBar .menu li .dropDown
+{
+    position: absolute;
+    left: 1rem;
+    width: 80rem;
+    height: auto;
+    visibility: hidden;
+    padding:1rem 0 ;
+}
+
+.navBar .menu li .dropDown li
+{
+    text-transform: capitalize;
+    max-width: 25rem;
+    padding: .1rem 0;
+    letter-spacing: .1rem;
+    font-weight: 500;
+}
+
+.navBar .menu li .dropDown li spans
+{
+    text-transform: uppercase;
+}
+
+.navBar .menu li .dropDown li:hover
+{
+    border-bottom: .1rem solid black;
+}
+
+/* Set navBar style end */
+
+/* Set section Images style end */
+.Images
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+/* Set section Images style end */
